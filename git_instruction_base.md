@@ -1,5 +1,6 @@
 # Памятка по GIT
 ## Инициализация локального git-репозитория
+0. >> git config ...
 1. >> git init
 2. >> git add .\git_instruction.md      // индексация файла
 3. >> git commit -m "Initial commit"    // сохранение коммита
@@ -32,3 +33,10 @@
 15. >> git checkout master
 16. >> git merge branch_for_merge       // производим слияние веток
 17. >> git branch -d branch_for_merge   // удаляем слитую ветку branch_for_merge
+
+18. добавление файла .gitignore
+
+
+19. >> git clone https://github.com/Andreyhc43/GitInstruction.git  // при необходимости клонируем заранее созданный репозиторий с git-hub
+20. >> git push --set-upstream https://github.com/Andreyhc43/GitInstruction.git master // загружаем на сервер нужную ветку
+21. указываем пароль аккаунта 
