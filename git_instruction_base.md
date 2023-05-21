@@ -30,4 +30,5 @@
 13. >> git checkout branch_for_merge    
 14. продолжаем работу с файлом...
 15. >> git checkout master
-15. >> git merge branch_for_merge       // производим слияние веток
+16. >> git merge branch_for_merge       // производим слияние веток
+17. >> git branch -d branch_for_merge   // удаляем слитую ветку branch_for_merge
