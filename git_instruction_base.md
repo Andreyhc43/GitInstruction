@@ -26,3 +26,5 @@
 9. >> git branch new_branch             // создаем новую ветку
 10. >> git branch                       // отображение всех имеющихся веток *-текущая ветка
 11. >> git checkout new_branch          // переходим на новую ветку
+12. >> git branch branch_for_merge      
+13. 
