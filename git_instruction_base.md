@@ -1,6 +1,6 @@
 # Памятка по GIT
 ## Инициализация локального git-репозитория
-0. >> git config ...
+0. >> git config ... (указать имя пользователя и email)
 1. >> git init
 2. >> git add .\git_instruction.md      // индексация файла
 3. >> git commit -m "Initial commit"    // сохранение коммита
@@ -31,7 +31,7 @@
 13. >> git checkout branch_for_merge    
 14. продолжаем работу с файлом...
 15. >> git checkout master
-16. >> git merge branch_for_merge       // производим слияние веток
+16. >> git merge branch_for_merge       // производим слияние веток (нужную к той, где находимся)
 17. >> git branch -d branch_for_merge   // удаляем слитую ветку branch_for_merge
 
 18. добавление файла .gitignore
