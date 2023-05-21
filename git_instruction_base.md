@@ -27,4 +27,7 @@
 10. >> git branch                       // отображение всех имеющихся веток *-текущая ветка
 11. >> git checkout new_branch          // переходим на новую ветку
 12. >> git branch branch_for_merge      
-13. 
+13. >> git checkout branch_for_merge    
+14. продолжаем работу с файлом...
+15. >> git checkout master
+15. >> git merge branch_for_merge       // производим слияние веток
