@@ -40,3 +40,8 @@
 19. >> git clone https://github.com/Andreyhc43/GitInstruction.git  // при необходимости клонируем заранее созданный репозиторий с git-hub
 20. >> git push --set-upstream https://github.com/Andreyhc43/GitInstruction.git master // загружаем на сервер нужную ветку
 21. указываем пароль аккаунта 
+
+Alternative:
+git remote add origin https://github.com/Andreyhc43/GB.JAVA.Lesson_4.git
+git branch -M main
+git push -u origin main
